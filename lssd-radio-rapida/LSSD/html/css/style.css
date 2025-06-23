@@ -1,0 +1,129 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: radial-gradient(circle at 50% 30%, #22335a 0%, #101c2c 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 0 16px #f9d36b);
+}
+
+.titulo {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.titulo .azul {
+  color: #3386ff;
+}
+
+.subtitulo {
+  color: #c5d1e6;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.formulario {
+  background: #181E2F;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 300px;
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.formulario label {
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+  color: #c5d1e6;
+  text-align: left;
+}
+
+.formulario .icon {
+  margin-right: 6px;
+}
+
+.formulario input {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 6px;
+  background: #232b3e;
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  outline: none;
+  transition: box-shadow 0.2s, background 0.2s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.formulario input:focus {
+  box-shadow: 0 0 0 2px #3386ff;
+  background: #26304a;
+}
+
+.formulario button {
+  padding: 0.8rem;
+  background: #f9d36b;
+  color: #222;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.formulario button:hover {
+  background: #ffe29c;
+  color: #181E2F;
+}
+
+#modal-resultado {
+  margin: 20px auto 0;
+  max-width: 350px;
+  background: #181E2F;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+footer {
+  margin-top: 60px;
+  text-align: center;
+  color: #b0b8c9;
+  font-size: 0.95rem;
+}
+
+footer a {
+  color: #3386ff;
+  text-decoration: none;
+}
